@@ -46,14 +46,9 @@ class THeader extends StatelessWidget {
               top: thPaddingTop,
               bottom: thPaddingBottom,
               right: thPaddingRight),
-          child: Text(
-            _headers != null || _headers!.isNotEmpty
+          child: _headers != null || _headers!.isNotEmpty
                 ? _headers![_index]['title']
-                : Container(),
-            style:
-                thStyle ?? TextStyle(fontWeight: _thWeight, fontSize: _thSize),
-            textAlign: thAlignment ?? TextAlign.start,
-          ),
+                : Container(),  
         ),
       ),
     );
