@@ -1,4 +1,4 @@
-# Editable
+# Editable fork (Widgets as Cells)
 
 ⚡️A highly customizable, editable table package for Flutter projects.
 
